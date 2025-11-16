@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Note Pad</title>
+    <style>
+        :root {
+            --color-background: #f4f4f9; 
+            --color-paper: #ffffff;      
+            --color-border: #a0a0b0;     
+            --color-text: #333333;       
+            --color-accent: #007bff;     
+        }
+
+        body {
+            font-family: 'Georgia', serif; 
+            margin: 0;
+            padding: 20px;
+            background-color: var(--color-background);
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .note-pad {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px 0;
+            padding: 30px;
+            background-color: var(--color-paper);
+            border: 1px solid var(--color-border);
+            border-radius: 4px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); 
+        }
+
+        h1 {
+            color: var(--color-accent);
+            font-size: 1.6em;
+            margin-top: 0;
+            padding-bottom: 8px;
+            border-bottom: 2px solid var(--color-border);
+        }
+
+        p {
+            line-height: 1.8;
+            font-size: 1.05em;
+            color: var(--color-text);
+            white-space: pre-wrap; 
+            margin-bottom: 25px;
+        }
+
+        .date {
+            display: block;
+            text-align: right;
+            font-style: italic;
+            font-size: 0.9em;
+            color: var(--color-accent);
+        }
+
+        ul {
+            list-style: disc inside;
+            padding-left: 0;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="note-pad">
+        <p>
+a transcribed conversation of a TV show, someday in 2004.
+
+[17:01]
+"Do you think becoming popular is necessary?" 
+
+[17:02] 
+"Yeah, I feel pointless to try master guitar. Like I feel like I need purpose but I don't want to chase popularity. But all I know musician are better to be known, and so what's the point? I can't make my own song anyway because I lack of ability to express my own feelings into any form of art."
+
+[17:05] 
+"The feel of playing... I want to make my guitar sing. But again, I feel like there's no point in that. What I do won't make me money anyway."
+
+[17:07] 
+"I have a goal that I just realised yesterday actually. I feel alive when [I'm] playing guitar even though I don't write or sing for myself because i'm not good with words from myself. But I notice some people that are actually deeply care about how themselves feel often have a hard time in expressing it. [I] feel like I want to help them. With the musical knowledge I have, I feel like I want to help them express what they feel in song, with my little help. I want to do that. That could be my goal. But to offer that maybe a little bit hard since I'm not easily open to people either."
+
+[17:10] 
+"Yes, one or two people in my friendship group. But I don't know how to help them, [they] seemed like not an artistic type of person, or at least I don't know it yet. So to ask them—what about try to turn it into music?—question is maybe a little bit too much for them knowing that I am the only one in the group that into music so much."
+
+[17:14] 
+"Something warm—You know, after I listen to some of George Harrison's songs, what I feel very different is that his songs, even though it made after a sadness cause or anything, the tone is warm, and the lyrics is comforting. Sometimes cheering mood up, sometimes giving warmth. For me that never likes any mellow type of beat, [it] kinda surprises me that those kind of music really exists."
+
+        </p>
+        <span class="date">Recorded: 2004-11-16, 6:45 PM</span>
+    </div>
+
+</body>
+</html>
